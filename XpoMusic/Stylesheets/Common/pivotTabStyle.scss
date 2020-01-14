@@ -6,7 +6,7 @@
     font-size: 16px !important;
     letter-spacing: normal !important;
     text-transform: lowercase !important;
-    margin: 10px 2px !important;
+    margin: 10px 7px !important;
 }
 
 .Root__main-view nav ul li a::first-letter {
@@ -18,9 +18,9 @@
     height: 2px;
     position: absolute;
     display: block;
-    left: 10px !important;
-    right: 10px !important;
-    bottom: -4px !important;
+    left: 0px !important;
+    right: 0px !important;
+    bottom: -7px !important;
     width: unset !important;
     margin: 0 !important;
     transition: opacity .2s ease-out .1s,transform .2s ease-out .1s;
@@ -45,9 +45,12 @@
     text-align: left !important;
 }
 
-.Root__main-view .Search__content nav ul,
-.Root__main-view .artist-header nav ul {
+.Root__main-view .Search__content nav ul {
     margin-left: 16px;
+}
+
+.Root__main-view .artist-header nav ul {
+    margin-left: -12px;
 }
 
 @media (min-width: 1100px) {
